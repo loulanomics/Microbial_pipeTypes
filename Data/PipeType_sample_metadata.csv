@@ -1,0 +1,74 @@
+File,ID,Sample_event,Sample,Replicate,DWTP,City,Material,Swab,Event,Service,Diameter_in,Age_yr,Month,Source,Primary,Secondary,Disinfectant,Inhibitor,Other,Log_copies_16S
+Extraction-Blank-1,NTC_rep1,blank,blank,1,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,
+Extraction-Blank-2,NTC_rep2,blank,blank,2,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,
+H2O-Extraction-Blank,NTC_rep3,blank,blank,3,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,
+MKE-1-2,MKE_Cu_smth_event1_rep1,MKE_Cu_smth_event1,MKE_Cu_smth,1,MKE,Milwaukee,copper,smooth,1,lateral,0.75,70,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.3337
+MKE-1-3,MKE_Cu_smth_event1_rep2,MKE_Cu_smth_event1,MKE_Cu_smth,2,MKE,Milwaukee,copper,smooth,1,lateral,0.75,70,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",5.8769
+MKE-1-4,MKE_Cu_smth_event1_rep3,MKE_Cu_smth_event1,MKE_Cu_smth,3,MKE,Milwaukee,copper,smooth,1,lateral,0.75,70,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-13-6,MKE_Cu_smth_event13_rep3,MKE_Cu_smth_event13,MKE_Cu_smth,3,MKE,Milwaukee,copper,smooth,13,lateral,0.75,,March,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-14-B1,MKE_dFe_smth_event14_rep1,MKE_dFe_smth_event14,MKE_dFe_smth,1,MKE,Milwaukee,ductile iron,smooth,14,lateral,8,16,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-14-B2,MKE_dFe_smth_event14_rep2,MKE_dFe_smth_event14,MKE_dFe_smth,2,MKE,Milwaukee,ductile iron,smooth,14,lateral,8,16,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.1664
+MKE-14-B3,MKE_dFe_smth_event14_rep3,MKE_dFe_smth_event14,MKE_dFe_smth,3,MKE,Milwaukee,ductile iron,smooth,14,lateral,8,16,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.5201
+MKE-16-B1,MKE_dFe_smth_event16_rep1,MKE_dFe_smth_event16,MKE_dFe_smth,1,MKE,Milwaukee,ductile iron,smooth,16,lateral,8,21,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.8037
+MKE-16-B2,MKE_dFe_smth_event16_rep2,MKE_dFe_smth_event16,MKE_dFe_smth,2,MKE,Milwaukee,ductile iron,smooth,16,lateral,8,21,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",5.9016
+MKE-16-B3,MKE_dFe_smth_event16_rep3,MKE_dFe_smth_event16,MKE_dFe_smth,3,MKE,Milwaukee,ductile iron,smooth,16,lateral,8,21,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.7551
+MKE-16-Tub-R1,MKE_dFe_tub_event16_rep1,MKE_dFe_tub_event16,MKE_dFe_tub,1,MKE,Milwaukee,ductile iron,tubercle,16,lateral,8,21,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",8.7547
+MKE-16-Tub-R2,MKE_dFe_tub_event16_rep2,MKE_dFe_tub_event16,MKE_dFe_tub,2,MKE,Milwaukee,ductile iron,tubercle,16,lateral,8,21,August,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",8.4921
+MKE-2-1,MKE_Pb_smth_event2_rep1,MKE_Pb_smth_event2,MKE_Pb_smth,1,MKE,Milwaukee,lead,smooth,2,lateral,0.75,75,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.4163
+MKE-2-2,MKE_Pb_smth_event2_rep2,MKE_Pb_smth_event2,MKE_Pb_smth,2,MKE,Milwaukee,lead,smooth,2,lateral,0.75,75,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-2-3,MKE_Pb_smth_event2_rep3,MKE_Pb_smth_event2,MKE_Pb_smth,3,MKE,Milwaukee,lead,smooth,2,lateral,0.75,75,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.1707
+MKE-3-3,MKE_Pb_smth_event3_rep1,MKE_Pb_smth_event3,MKE_Pb_smth,1,MKE,Milwaukee,lead,smooth,3,lateral,0.75,90,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-3-7,MKE_Pb_smth_event3_rep3,MKE_Pb_smth_event3,MKE_Pb_smth,3,MKE,Milwaukee,lead,smooth,3,lateral,0.75,90,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-4-B1,MKE_cFe_smth_event4_rep1,MKE_cFe_smth_event4,MKE_cFe_smth,1,MKE,Milwaukee,cast iron,smooth,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.2773
+MKE-4-B2,MKE_cFe_smth_event4_rep2,MKE_cFe_smth_event4,MKE_cFe_smth,2,MKE,Milwaukee,cast iron,smooth,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1123
+MKE-4-B3,MKE_cFe_smth_event4_rep3,MKE_cFe_smth_event4,MKE_cFe_smth,3,MKE,Milwaukee,cast iron,smooth,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.4047
+MKE-4-Tub-2,MKE_cFe_tub_event4_rep1,MKE_cFe_tub_event4,MKE_cFe_tub,1,MKE,Milwaukee,cast iron,tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",8.084
+MKE-4-Tub-3,MKE_cFe_tub_event4_rep2,MKE_cFe_tub_event4,MKE_cFe_tub,2,MKE,Milwaukee,cast iron,tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",8.0297
+MKE-4-Tub-4,MKE_cFe_tub_event4_rep3,MKE_cFe_tub_event4,MKE_cFe_tub,3,MKE,Milwaukee,cast iron,tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1648
+MKE-4-UT1,MKE_cFe_undertub_event4_rep1,MKE_cFe_undertub_event4,MKE_cFe_undertub,1,MKE,Milwaukee,cast iron,under tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",8.1374
+MKE-4-UT2,MKE_cFe_undertub_event4_rep2,MKE_cFe_undertub_event4,MKE_cFe_undertub,2,MKE,Milwaukee,cast iron,under tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.6301
+MKE-4-UT3,MKE_cFe_undertub_event4_rep3,MKE_cFe_undertub_event4,MKE_cFe_undertub,3,MKE,Milwaukee,cast iron,under tubercle,4,main,6,67,October,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1832
+MKE-5-B1,MKE_dFe_smth_event5_rep3,MKE_dFe_smth_event5,MKE_dFe_smth,3,MKE,Milwaukee,ductile iron,smooth,5,main,12,13,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.0942
+MKE-5-B5,MKE_cFe_smth_event5_rep1,MKE_cFe_smth_event5,MKE_cFe_smth,1,MKE,Milwaukee,cast iron,smooth,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.0775
+MKE-5-B6,MKE_cFe_smth_event5_rep2,MKE_cFe_smth_event5,MKE_cFe_smth,2,MKE,Milwaukee,cast iron,smooth,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.0342
+MKE-5-T2,MKE_dFe_smth_event5_rep2,MKE_dFe_smth_event5,MKE_dFe_smth,2,MKE,Milwaukee,ductile iron,smooth,5,main,12,13,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.4618
+MKE-5-Tub1-R1,MKE_cFe_tub_event5_rep1,MKE_cFe_tub_event5,MKE_cFe_tub,1,MKE,Milwaukee,cast iron,tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1662
+MKE-5-Tub2-R1,MKE_cFe_tub_event5_rep2,MKE_cFe_tub_event5,MKE_cFe_tub,2,MKE,Milwaukee,cast iron,tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.0184
+MKE-5-Tub3-R1,MKE_cFe_tub_event5_rep3,MKE_cFe_tub_event5,MKE_cFe_tub,3,MKE,Milwaukee,cast iron,tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.513
+MKE-5-UT1,MKE_cFe_undertub_event5_rep1,MKE_cFe_undertub_event5,MKE_cFe_undertub,1,MKE,Milwaukee,cast iron,under tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.5795
+MKE-5-UT2,MKE_cFe_undertub_event5_rep2,MKE_cFe_undertub_event5,MKE_cFe_undertub,2,MKE,Milwaukee,cast iron,under tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.175
+MKE-5-UT3,MKE_cFe_undertub_event5_rep3,MKE_cFe_undertub_event5,MKE_cFe_undertub,3,MKE,Milwaukee,cast iron,under tubercle,5,main,12,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.3608
+MKE-7-2,MKE_cFe_smth_event7_rep2,MKE_cFe_smth_event7,MKE_cFe_smth,2,MKE,Milwaukee,cast iron,smooth,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.5513
+MKE-7-4,MKE_cFe_smth_event7_rep3,MKE_cFe_smth_event7,MKE_cFe_smth,3,MKE,Milwaukee,cast iron,smooth,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.4551
+MKE-7-Bot-Tub1,MKE_cFe_tub_event7_rep1,MKE_cFe_tub_event7,MKE_cFe_tub,1,MKE,Milwaukee,cast iron,tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.2355
+MKE-7-Bot-Tub2,MKE_cFe_tub_event7_rep2,MKE_cFe_tub_event7,MKE_cFe_tub,2,MKE,Milwaukee,cast iron,tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1733
+MKE-7-Top-Tub1,MKE_cFe_tub_event7_rep3,MKE_cFe_tub_event7,MKE_cFe_tub,3,MKE,Milwaukee,cast iron,tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.8231
+MKE-7-UT1,MKE_cFe_undertub_event7_rep1,MKE_cFe_undertub_event7,MKE_cFe_undertub,1,MKE,Milwaukee,cast iron,under tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",6.654
+MKE-7-UT2,MKE_cFe_undertub_event7_rep2,MKE_cFe_undertub_event7,MKE_cFe_undertub,2,MKE,Milwaukee,cast iron,under tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.1306
+MKE-7-UT3,MKE_cFe_undertub_event7_rep3,MKE_cFe_undertub_event7,MKE_cFe_undertub,3,MKE,Milwaukee,cast iron,under tubercle,7,main,8,70,November,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",7.7468
+MKE-8-4,MKE_Pb_smth_event8_rep2,MKE_Pb_smth_event8,MKE_Pb_smth,2,MKE,Milwaukee,lead,smooth,8,lateral,0.625,120,December,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",5.756
+MKE-8-5,MKE_Pb_smth_event8_rep3,MKE_Pb_smth_event8,MKE_Pb_smth,3,MKE,Milwaukee,lead,smooth,8,lateral,0.625,120,December,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-9-Cu2,MKE_Cu_smth_event9_rep1,MKE_Cu_smth_event9,MKE_Cu_smth,1,MKE,Milwaukee,copper,smooth,9,lateral,1,,February,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-9-Cu3,MKE_Cu_smth_event9_rep2,MKE_Cu_smth_event9,MKE_Cu_smth,2,MKE,Milwaukee,copper,smooth,9,lateral,1,,February,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",
+MKE-9-Cu4,MKE_Cu_smth_event9_rep3,MKE_Cu_smth_event9,MKE_Cu_smth,3,MKE,Milwaukee,copper,smooth,9,lateral,1,,February,lake,ozone,chlorine,chloramine,phosphate,"fluoride, alum",5.7299
+OC-1-H,OC_Cu_smth_event1_rep2,OC_Cu_smth_event1,OC_Cu_smth,2,OC,Oak Creek,copper,smooth,1,lateral,0.75,55,July,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+OC-4-4,OC_dFe_smth_event4_rep2,OC_dFe_smth_event4,OC_dFe_smth,2,OC,Oak Creek,ductile iron,smooth,4,main,18,34,August,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+OC-4-5,OC_dFe_smth_event4_rep3,OC_dFe_smth_event4,OC_dFe_smth,3,OC,Oak Creek,ductile iron,smooth,4,main,18,34,August,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+OC-6-2,OC_dFe_smth_event6_rep2,OC_dFe_smth_event6,OC_dFe_smth,2,OC,Oak Creek,ductile iron,smooth,6,main,20,39,August,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+OC-7-5,OC_Cu_smth_event7_rep2,OC_Cu_smth_event7,OC_Cu_smth,2,OC,Oak Creek,copper,smooth,7,lateral,0.75,,January,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+OC-7-6,OC_Cu_smth_event7_rep3,OC_Cu_smth_event7,OC_Cu_smth,3,OC,Oak Creek,copper,smooth,7,lateral,0.75,,January,lake,sodium hypochlorite,none,chlorine,none,fluoride,
+WK1-B3,WK_dFe_smth_event1_rep3,WK_dFe_smth_event1,WK_dFe_smth,3,WK,Waukesha,ductile iron,smooth,1,main,16,51,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-Fe-1,WK_cFe_smth_event2_rep1,WK_cFe_smth_event2,WK_cFe_smth,1,WK,Waukesha,cast iron,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-Fe-12D,WK_cFe_smth_event2_rep2,WK_cFe_smth_event2,WK_cFe_smth,2,WK,Waukesha,cast iron,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-Fe-3,WK_cFe_smth_event2_rep3,WK_cFe_smth_event2,WK_cFe_smth,3,WK,Waukesha,cast iron,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-LP-19-B,WK_Pb_smth_event2_rep1,WK_Pb_smth_event2,WK_Pb_smth,1,WK,Waukesha,lead,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-LP-20-B,WK_Pb_smth_event2_rep2,WK_Pb_smth_event2,WK_Pb_smth,2,WK,Waukesha,lead,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK2-LP-21-B,WK_Pb_smth_event2_rep3,WK_Pb_smth_event2,WK_Pb_smth,3,WK,Waukesha,lead,smooth,2,lateral,0.75,106,August,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-B3,WK_cFe_smth_event3_rep1,WK_cFe_smth_event3,WK_cFe_smth,1,WK,Waukesha,cast iron,smooth,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-B5,WK_cFe_smth_event3_rep3,WK_cFe_smth_event3,WK_cFe_smth,3,WK,Waukesha,cast iron,smooth,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-Tub-4,WK_cFe_tub_event3_rep1,WK_cFe_tub_event3,WK_cFe_tub,1,WK,Waukesha,cast iron,tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-Tub-6,WK_cFe_tub_event3_rep2,WK_cFe_tub_event3,WK_cFe_tub,2,WK,Waukesha,cast iron,tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-Tub-7,WK_cFe_tub_event3_rep3,WK_cFe_tub_event3,WK_cFe_tub,3,WK,Waukesha,cast iron,tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-UT-1,WK_cFe_undertub_event3_rep1,WK_cFe_undertub_event3,WK_cFe_undertub,1,WK,Waukesha,cast iron,under tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-UT-2,WK_cFe_undertub_event3_rep2,WK_cFe_undertub_event3,WK_cFe_undertub,2,WK,Waukesha,cast iron,under tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
+WK3-UT-3,WK_cFe_undertub_event3_rep3,WK_cFe_undertub_event3,WK_cFe_undertub,3,WK,Waukesha,cast iron,under tubercle,3,lateral,2,73,September,aquifer,sodium hypochlorite,none,chlorine,sodium silicate,fluoride,
