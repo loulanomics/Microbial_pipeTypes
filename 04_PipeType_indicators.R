@@ -15,7 +15,6 @@ library(RColorBrewer)
 library(stringr)
 
 
-
 #################
 ### load data ###
 #################
@@ -116,6 +115,18 @@ indic_type <- subset(indic_type_all, p.value < 0.05)
 table(indic_type$Variable)
 # castiron      copper ductileiron 
 # 54           9          39
+
+
+# abundance in groups
+relabun_indic <- data.frame(Sample_ID = rownames(relabun_genus_top), relabun_genus_top)
+relabun_indic <- merge(info[c("Sample_ID", "Pipe_material")], relabun_indic, by = "Sample_ID")
+relabun_indic <- aggregate(. ~ Pipe_material, sum, data = relabun_indic[-1])
+rownames(relabun_indic) <- relabun_indic$Pipe_material
+relabun_indic <- relabun_indic[-1] / rowSums(relabun_indic[-1])
+relabun_indic <- data.frame(t(relabun_indic[indic_type$Genus]))
+relabun_indic <- melt(data.frame(Genus = rownames(relabun_indic), relabun_indic), variable.name = "Pipe_material", value.name = "Relabun")
+relabun_indic$Indicator <- paste(relabun_indic$Pipe_material, relabun_indic$Genus)
+indic_type <- merge(indic_type, relabun_indic[c("Relabun", "Indicator")], by = "Indicator")
 
 
 # save
