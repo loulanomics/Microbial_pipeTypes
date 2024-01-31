@@ -1,14 +1,12 @@
 #########################################
 ### QA/QC QIIME2 output files
 ### from MR DNA for pipe type study
-### Lou LaMartina, finalized Jan 23, 2024
+### Lou LaMartina, finalized Jan 25, 2024
 #########################################
 
 
 setwd("~/Desktop/Postdoc/16S/PipeType")
-library(vegan)
 library(readxl)
-library(scales)
 
 
 #################
@@ -62,25 +60,26 @@ cat(as.integer(mean(rowSums(blanks))), "±", as.integer(sd(rowSums(blanks))))
 
 # number of reads in blanks vs samples
 contams <- data.frame(OTU = colnames(relabun), blanks = colSums(blanks / rowSums(blanks)),
-                      samples = colSums(relabun[! rownames(relabun) %in% rownames(blanks),]))
+                      samples = colSums(relabun[! rownames(relabun) %in% rownames(blanks),]),
+                      nreads = colSums(counts))
 
 
 # OTUs that are 3x more abundant in blanks than samples
 contams$blanks_x3 <- contams$blanks * 3
-contams$Contam <- contams$blanks_x3 > contams$samples
-contams <- merge(contams, taxa[c("OTU", "Genus_species")], by = "OTU")
-#write.csv(contams, "DATA/PipeType_contaminants.csv", row.names = F, na = "", quote = F)
-contams <- subset(contams, Contam == TRUE)$OTU
+contams <- subset(contams, blanks_x3 > samples)
+contams <- merge(contams, taxa[c("OTU", "Genus_species", "Accession")], by = "OTU")
+write.csv(contams, "DATA/PipeType_contaminants.csv", row.names = F, na = "", quote = F)
 
 
 # proportion in dataset
-cat(signif(sum(counts[contams]) / sum(counts) * 100, 2), "%")
+cat(signif(sum(counts[contams$OTU]) / sum(counts) * 100, 2), "%")
 # 0.056 %
 
 
-# remove those
+# remove contams
 counts <- counts[! rownames(counts) %in% rownames(blanks), ! colnames(counts) %in% contams]
-info <- subset(info, ! Sample_ID %in% rownames(blanks))
+counts <- counts[rowSums(counts) > 0, colSums(counts) > 0]
+info <- info[match(rownames(counts), info$Sample_ID),]
 taxa <- subset(taxa, OTU %in% colnames(counts))
 identical(rownames(counts), rownames(info))
 identical(colnames(counts), rownames(taxa))
@@ -99,6 +98,4 @@ write.csv(counts, "DATA/PipeType_OTU_counts.csv", row.names = F, na = "", quote 
 
 # OTU taxonomy
 write.csv(taxa, "DATA/PipeType_OTU_taxonomy.csv", row.names = F, na = "", quote = F)
-
-
 
